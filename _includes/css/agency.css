@@ -44,6 +44,7 @@ a:focus,
 a:active,
 a.active {
     color: #{{ site.data.template.color.secondary }};
+
 }
 
 h1,
@@ -83,7 +84,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: none
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -292,7 +293,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 100px;
     font-weight: 700;
     line-height: 50px;
 }
