@@ -44,6 +44,7 @@ a:focus,
 a:active,
 a.active {
     color: #{{ site.data.template.color.secondary }};
+    outline: 0;
 }
 
 h1,
